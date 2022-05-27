@@ -1,0 +1,6 @@
+project: code-terror/roxmltree
+target: afl-fuzz
+
+cmds:
+  - cmd: /rust-crc32fast/fuzz/target/debug/fuzz
+    afl: true
