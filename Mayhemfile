@@ -5,4 +5,4 @@ cmds:
   - cmd: /rust-crc32fast/fuzz/target/debug/fuzz
     afl: true
 tests:
-  - file:///rust-crc32fast/fuzz/in/
+  - file:///rust-crc32fast/fuzz/in
